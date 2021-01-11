@@ -1,0 +1,81 @@
+body {
+  background-color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+nav { background-color: #dad9ef;
+      font-weight: bold;
+	    font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 10px;
+      padding: 10px;}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #000000;
+  -webkit-transition: all 0.3s linear;
+}
+
+a:hover {
+  color: #999999;
+  text-decoration: underline;
+}
+
+.box {
+  display: inline-block;
+  width: 250px;
+  height: auto;
+  padding: 10px;
+  background-color: #f2c9e7;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #CCCCCC;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+.box:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #f2c9e7;
+  padding: 10px;
+}
+
+.poster {
+  float: left;
+  background-color: #f2c9e7;
+  padding: 10px;
+  width: 250px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
+  -webkit-text-fill-color: white;
+}
+
+#wrapper {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  background-color: #FFFFFF;
+  padding:10px;
+}
+
+footer { background-color: #dad9ef;
+      font-weight: bold;
+	    font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 10px;
+      }

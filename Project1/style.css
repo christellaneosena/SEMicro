@@ -69,6 +69,7 @@ a:hover {
   margin: auto;
   background-color: #FFFFFF;
   padding:10px;
+  border-radius: 10px;
 }
 
 footer { background-color: #dad9ef;

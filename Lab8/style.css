@@ -1,0 +1,57 @@
+body {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v384-ning-09b-gradientbg_2.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=2c36d71fb7cc6dee0df0a311c21a7598");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-content: center;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  background-color: PeachPuff;
+  opacity: 80%;
+  padding: 10px;
+  width: 200px;
+}
+
+.heading {
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #999999;
+}
+
+.hd {
+  background-color: lightpink;
+  opacity: 50%;
+  color: #fff;
+  padding: 10px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.hd:hover {
+  background-color: white;
+  opacity: 50%;
+  color: lightpink;
+  -webkit-transition: all 0.3s linear;
+}
+
+#box {
+  margin: auto;
+  display: block;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  padding: 10px;
+}
+
+.text {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+#wrapper {
+  width: 60%;
+  border: 3px dashed #ffffff;
+  margin: auto;
+  padding: 20px;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<title>Lab 9 - Osena</title>
+<link rel="stylesheet" href="lb.css" type="text/css"/>
+</head>
+
+<body>
+<div class="header">
+  <h1>Banner</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<div class="nav">
+  <a href="">Link</a>
+  <a href="">Link</a>
+  <a href="">Link</a>
+  <button onclick="reStyle(0); return false;"> Click Me </a></button>
+</div>
+
+<div class="row">
+  <div class="column">
+  <h2>Column</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet, felis et aliquam lobortis, metus libero tincidunt turpis, vel imperdiet lectus turpis fermentum velit. Curabitur in sollicitudin eros. Donec pretium et ex nec sagittis. Cras porttitor erat ac luctus dapibus. In dapibus odio vitae lectus aliquam semper et et lectus.
+</div>
+
+<div class="column">
+  <div id="gcolor">
+  <h2>Column</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet, felis et aliquam lobortis, metus libero tincidunt turpis, vel imperdiet lectus turpis fermentum velit. Curabitur in sollicitudin eros. Donec pretium et ex nec sagittis. Cras porttitor erat ac luctus dapibus. In dapibus odio vitae lectus aliquam semper et et lectus.
+</div>
+</div>
+
+<div class="column">
+  <h2>Column</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet, felis et aliquam lobortis, metus libero tincidunt turpis, vel imperdiet lectus turpis fermentum velit. Curabitur in sollicitudin eros. Donec pretium et ex nec sagittis. Cras porttitor erat ac luctus dapibus. In dapibus odio vitae lectus aliquam semper et et lectus.
+</div>
+</div>
+
+<script>
+function reStyle(n) {
+  noStyles()
+  document.styleSheets[1].disabled = true;
+    document.styleSheets[4].disabled = false;
+}
+</script>
+
+</body>
+</html>

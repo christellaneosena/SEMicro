@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<title>Lab 10 - Osena</title>
+<link rel="stylesheet" href="lb10pastel.css" type="text/css"/>
+<script src="script.js"></script>
+<!--
+Style 1: lb10pastel.css
+Style 2: lb10nature.css
+Style 3: lb10modern.css
+Style 4: lb10christmas.css
+Style 5: lb10sunset.css
+-->
+</head>
+
+<body>
+<div class="header">
+  <h1>Banner</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<div class="nav">
+  <a href="">Link</a>
+  <a href="">Link</a>
+  <a href="">Link</a>
+  <button type="button" onclick="myfunction()"> Click Me </button>
+  <p id="demo" style="color: #999;"><b>For A Message</b></p>
+  <script>
+  // create a function for button
+  function myfunction()
+  {
+    /* this will call the function and rewrite html paragraph tag */
+    document.getElementById("demo").innerHTML = "Welcome to my page!";
+  }
+  </script>
+</div>
+
+<div class="row">
+  <div class="column">
+  <h2>Column</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet, felis et aliquam lobortis, metus libero tincidunt turpis, vel imperdiet lectus turpis fermentum velit. Curabitur in sollicitudin eros. Donec pretium et ex nec sagittis. Cras porttitor erat ac luctus dapibus. In dapibus odio vitae lectus aliquam semper et et lectus.
+</div>
+
+<div class="column">
+  <div id="gcolor">
+  <h2>Column</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet, felis et aliquam lobortis, metus libero tincidunt turpis, vel imperdiet lectus turpis fermentum velit. Curabitur in sollicitudin eros. Donec pretium et ex nec sagittis. Cras porttitor erat ac luctus dapibus. In dapibus odio vitae lectus aliquam semper et et lectus.
+</div>
+</div>
+
+<div class="column">
+  <h2>Column</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet, felis et aliquam lobortis, metus libero tincidunt turpis, vel imperdiet lectus turpis fermentum velit. Curabitur in sollicitudin eros. Donec pretium et ex nec sagittis. Cras porttitor erat ac luctus dapibus. In dapibus odio vitae lectus aliquam semper et et lectus.
+</div>
+</div>
+
+</body>
+</html>

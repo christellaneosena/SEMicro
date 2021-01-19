@@ -1,0 +1,54 @@
+body {
+  font-family: Arial,sans-serif;
+  background-color: white;
+}
+
+.header{
+  background-color: khaki;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav{
+  overflow:hidden;
+  background-color: #888;
+}
+
+.nav a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  display: block;
+  float: left;
+  width: 30%;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px;) {
+  .column {
+    width: 100%;
+  }
+}
+
+#gcolor {
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,233,227,1) 100%);
+}

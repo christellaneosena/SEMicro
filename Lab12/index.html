@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<title>Lab 12 - Osena</title>
+<link rel="stylesheet" href="lb12fortune.css" type="text/css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+<script src="../PracticeLab/js/add-content.js"></script>
+<!--
+Style 1: lb12pastel.css
+Style 2: lb12nature.css
+Style 3: lb12modern.css
+Style 4: lb12christmas.css
+Style 5: lb12sunset.css
+Style 6: lb12fortune.css
+-->
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Fortune Teller</h1>
+  <p>Fill out form to tell your future!</p>
+</div>
+
+<div class="nav">
+  <a href="">Home</a>
+  <a href="">About</a>
+  <a href="">Form</a>
+</div>
+
+<div class="row">
+<center>
+<div class="column">
+<img src="https://media.istockphoto.com/vectors/magic-crystal-ball-vector-id1083322658?k=6&m=1083322658&s=612x612&w=0&h=GRWDOiOflmKheRRTxGRlm_WwcsuB8s5UGsOrM7ECewA=" width="300px">
+</div>
+
+<div class="column">
+  <h2>Your Future</h2>
+  <form name="alertform">
+    Enter your name: <br>
+    <input type="text" name="yourname"><br><br>
+    Enter the number of kids you want: <br>
+    <input type="number" name="numKids"><br><br>
+    Enter your celebrity crush: <br>
+    <input type="text" name="partner"><br><br>
+    Enter your dream job: <br>
+    <input type="text" name="dreamJob"><br><br>
+    Enter city you want to live in: <br>
+    <input type="text" name="dreamCity"><br><br>
+  </form>
+    <input type="button" value="Show Your Future!" onclick="window.alert('Hi ' + document.alertform.yourname.value + '! You will work as a ' + document.alertform.dreamJob.value + ' in ' + document.alertform.dreamCity.value + ', and married to ' + document.alertform.partner.value + ' with ' + document.alertform.numKids.value + ' kids.')";>
+</div>
+
+<div class="column">
+<img src="https://media.istockphoto.com/vectors/magic-crystal-ball-vector-id1083322658?k=6&m=1083322658&s=612x612&w=0&h=GRWDOiOflmKheRRTxGRlm_WwcsuB8s5UGsOrM7ECewA=" width="300px">
+</div>
+</center>
+</div>
+
+<script>
+x=prompt ("Enter Number", "")
+document.write("Christell <br>", +x)
+</script>
+
+</body>
+</html>

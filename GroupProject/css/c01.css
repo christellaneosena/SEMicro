@@ -1,0 +1,49 @@
+body {
+  background-color: #000;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#wrapper {
+  margin: auto;
+  width: 70%;
+  margin-top: 15%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+
+button, button2, button3 {
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  -webkit-transition: all 0.1s linear;
+  border-radius: 10px;
+}
+
+.button1:hover{
+  background-color: #39FF14;
+  border: 2px solid #39FF14;
+  color: #000;
+}
+
+.button2:hover{
+  background-color: #FFFF33;
+  border: 2px solid #FFFF33;
+  color: #000;
+}
+
+.button3:hover{
+  background-color: #ff6ec7;
+  border: 2px solid #ff6ec7;
+  color: #000;
+}
+
+.demo {
+  width: 50%;
+}
+
+h1 {
+  text-shadow: 1px 1px 10px #000;
+}

@@ -1,0 +1,39 @@
+body {
+  background-color: lightpink;
+  font-family: Arial, sans-serif;
+  color: #999;
+}
+
+#wrapper {
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+
+.leftButton, .rightButton {
+  width: 50px;
+  margin: auto;
+  padding: 10px;
+  background-color: lightpink;
+  border: 2px solid lightpink;
+  -webkit-transition: all 0.1s linear;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.rightButton:hover{
+  background-color: #fff;
+  border: 2px solid lightpink;
+  color: lightpink;
+}
+
+.leftButton:hover{
+  background-color: #fff;
+  border: 2px solid lightpink;
+  color: lightpink;
+}

@@ -11,7 +11,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.9em;
 	opacity: 1;
-    transition: 1s opacity;
+    transition: 1s opacity;	
 }
 
 .blob {
@@ -70,10 +70,8 @@ h2 {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	border-bottom: solid 0.5px #ccc;
-  padding-top: 10px;
-  padding-bottom: 10px;
-	width: 40%;
-  color: #000;
+	width: 70%;
+	padding-bottom: 0.3em;
 }
 
 h3 {
@@ -91,22 +89,8 @@ h4 {
 	padding-bottom: 0.3em;
 }
 
-a:link{
-    color: #000;
-  	font-weight: bold;
-  	margin-right: 2em;
-  	letter-spacing: 0.15em;
-}
-
-a:hover {
-  color: #000;
-  border-bottom: 1px solid #000;
-  padding-bottom: 2px;
-  transition: 0.3s;
-}
-
 /* Navigation */
-
+ 
 .navbar-custom, .nav-link{
 	background-color: none;
 	font-size: 1.0em;
@@ -116,7 +100,7 @@ a:hover {
 	}
 
 .navlinks {
-  color: #000;
+    color: #000;
 	font-weight: bold;
 	margin-right: 2em;
 	letter-spacing: 0.15em;
@@ -135,7 +119,7 @@ a:hover {
   align-items: center;
   color: #eac3c2;
   font-size: 1.5em;
-  text-divider-gap: 0.8rem;
+  text-divider-gap: 0.8rem; 
   margin-bottom: 1.0em;
 }
 
@@ -160,7 +144,7 @@ a:hover {
   align-items: center;
   color: #eac3c2;
   font-size: 1.5em;
-  text-divider-gap: 0.8rem;
+  text-divider-gap: 0.8rem; 
   margin-left: 5em;
   margin-bottom: 1.0em;
 }
@@ -181,7 +165,7 @@ a:hover {
   align-items: center;
   color: #eac3c2;
   font-size: 1.5em;
-  text-divider-gap: 0.8rem;
+  text-divider-gap: 0.8rem; 
   margin-right: 5em;
   margin-bottom: 1.0em;
 }
@@ -222,3 +206,28 @@ a:hover {
 	color: #fae0c7;
 	border: solid 3px #fae0c7;
 }
+
+/* Footer */
+
+footer {
+	width: 100%;
+	background-color: #eac3c2;
+	color: #ffffff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 2rem;
+	position: relative;
+}
+
+.footertext {
+	font-size: 0.9em;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.icons {
+	float: right;
+	width: auto;
+	padding-right: 2rem;
+}
+

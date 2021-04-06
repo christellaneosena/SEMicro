@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 0.8em;
+}
+
+h1, h3 {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5em;
+}
+
+a:link, a:visited {
+  transition: 0.3s;
+}
+
+a:hover{
+  padding-bottom: 1px;
+  border-bottom: solid 1px #000;
+  text-decoration: none;
+}
+.navbar, .navbar-expand-md, .navbar-custom {
+  background-color: #000;
+  position: relative;
+	font-size: 1.0em;
+	text-transform: uppercase;
+  letter-spacing: 0.1em;
+	text-align: center;
+	}
+
+.nav-link {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #fff;
+  padding-bottom: 1px;
+  border-bottom: solid 2px #fff;
+}
+
+.home {
+	background-image: url(images/main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  padding-top: 15em;
+	padding-bottom: 15em;
+	z-index: -100;}
+
+.menu {
+	background-image: url(images/main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  padding-top: 15em;
+	padding-bottom: 15em;
+	z-index: -100;
+}
+
+.about {
+	background-image: url(images/main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 15em;
+	padding-bottom: 15em;
+  position: relative;
+	z-index: -100;
+}
+
+.contact {
+	background-image: url(images/main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 15em;
+	padding-bottom: 15em;
+  position: relative;
+	z-index: -100;
+}
+
+.display-1 {
+  font-size: 80px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: underline; }
+
+.jumbotron p {color: lightgrey;}
+
+#quantity { width: 25%;}
+
+footer {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+  margin-top: 5em;
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	position: relative;
+}

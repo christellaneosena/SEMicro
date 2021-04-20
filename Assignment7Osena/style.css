@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: Courier New, serif;
+  font-size: 0.8em;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+#wrapper {
+  width: 25%;
+  margin: auto;
+  background-color: #f0f0f0;
+  border: solid #999 1px;
+  padding: 20px;
+}

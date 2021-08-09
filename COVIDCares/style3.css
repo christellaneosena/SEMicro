@@ -84,6 +84,11 @@ a:hover {
   margin: auto;
 }
 
+#container3 {
+  width: 75%;
+  margin: auto;
+}
+
 #box {
     float: left;
     background-color: #fff;
@@ -102,6 +107,7 @@ a:hover {
     height: auto;
     padding: 20px;
     border-radius: 20px;
+    margin-right: 20px;
     margin-bottom: 20px;
     }
 
@@ -117,6 +123,7 @@ a:hover {
 
 .btn {
 	background-color: #444;
+  border: none;
   color: #ffffff;
 	padding: 5px;
 	width: 25%;
@@ -134,6 +141,7 @@ a:hover {
 
 .btn2 {
 	background-color: #444;
+  border: none;
   color: #fff;
 	padding: 5px;
 	width: 50%;
@@ -206,6 +214,7 @@ a:hover {
 
 .btn7 {
 	background-color: #444;
+  border: none;
   color: #fff;
 	padding: 5px;
 	width: 40%;
@@ -215,8 +224,26 @@ a:hover {
   transition: 0.3s;
 }
 
+.btn8 {
+	background-color: #444;
+  float: right;
+  border: none;
+  color: #fff;
+	padding: 5px;
+	width: 20%;
+  font-size: 1.25em;
+	align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
 input.form-control {
 	border: 2px solid #444;
+}
+
+select.form-control {
+  width: auto;
+  font-size: 1em;
 }
 
 .text {
@@ -233,4 +260,24 @@ input.form-control {
 .counter {
   float: right;
   margin-top: 20px;
+}
+
+.rounded {
+    border-radius: 1rem
+}
+
+.nav-pills .nav-link {
+    color: #555
+}
+
+.nav-pills .nav-link.active {
+    color: white
+}
+
+input[type="radio"] {
+    margin-right: 5px
+}
+
+.bold {
+    font-weight: bold
 }

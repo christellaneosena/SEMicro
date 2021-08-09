@@ -132,6 +132,7 @@ a:hover {
 
 .btn {
 	background-color: #444;
+  border: none;
   color: #ffffff;
 	padding: 5px;
 	width: 25%;
@@ -149,6 +150,7 @@ a:hover {
 
 .btn2 {
 	background-color: #444;
+  border: none;
   color: #fff;
 	padding: 5px;
 	width: 50%;

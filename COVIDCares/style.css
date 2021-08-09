@@ -75,6 +75,7 @@ a:hover {
 
 .btn {
 	background-color: #444;
+  border: none;
   color: #fff;
 	padding: 5px;
 	width: 25%;

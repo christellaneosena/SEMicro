@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: #fff8ea;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  color: #444444;
+}
+
+h1, h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  color: #000;
+}
+
+a:link, a:visited {
+  color: #444;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-custom{
+	background-color: #fff8ea;
+  height: 100px;
+	}
+
+.navlinks {
+  color: #000;
+	font-weight: bold;
+	margin-right: 2em;
+	letter-spacing: 0.15em;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #444;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.home {
+	background: none;
+  padding-top: 10em;}
+
+.display-1 {
+  color: #000;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;}
+
+.display-2 {
+  color: #000;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-align: center;}
+
+.display-2 {
+  color: #000;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;}
+
+
+#container {
+  width: 90%;
+  margin: auto;
+}
+
+#container2 {
+  width: 35%;
+  margin: auto;
+}
+
+#box {
+    float: left;
+    background-color: #fff;
+    width: 380px;
+    height: auto;
+    padding: 20px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+
+#box2 {
+    float: left;
+    background-color: #fff;
+    width: 480px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    }
+
+#box3 {
+    float: left;
+    background-color: #fff;
+    width: 380px;
+    height: auto;
+    padding: 20px;
+    margin-right: 30px;
+    border-radius: 20px;
+    }
+
+.btn {
+	background-color: #444;
+  color: #ffffff;
+	padding: 5px;
+	width: 25%;
+  font-size: 1em;
+	align: center;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+	background-color: #333;
+	color: #fff;
+	width: 25%;
+}
+
+.btn2 {
+	background-color: #444;
+  color: #fff;
+	padding: 5px;
+	width: 50%;
+  font-size: 1.25em;
+	align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.btn2:hover {
+	background-color: #333;
+	color: #fff;
+	width: 50%;
+}
+
+.btn3 {
+	background-color: #fff;
+  border: solid 1px #444;
+  color: #444;
+	padding-left: 15px;
+  padding-right: 15px;
+	width: auto;
+  font-size: 1em;
+	align: center;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.btn3:hover {
+	background: #444;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.btn4 {
+  background-color: #fff;
+  border: solid 1px #444;
+  color: #444;
+	width: 25px;
+  font-size: 1em;
+	text-align: center;
+  border-radius: 20px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+}
+
+.btn5 {
+	background-color: #444;
+  border: solid 1px #444;
+  color: #fff;
+	width: 25px;
+  font-size: 1em;
+	text-align: center;
+  border-radius: 20px;
+  margin-right: 3px;
+  margin-bottom: 10px;
+}
+
+.btn6 {
+	background-color: #fff;
+  color: #444;
+  border: 2px solid #444;
+	padding: 5px;
+	width: 25%;
+  font-size: 1.25em;
+	align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.btn7 {
+	background-color: #444;
+  color: #fff;
+	padding: 5px;
+	width: 40%;
+  font-size: 1.25em;
+	align: center;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+input.form-control {
+	border: 2px solid #444;
+}
+
+.text {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.text2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.counter {
+  float: right;
+  margin-top: 20px;
+}

@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: #fff8ea;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  color: #444444;
+}
+
+h1, h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  color: #000;
+}
+
+a:link, a:visited {
+  color: #444;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-custom{
+	background-color: none;
+  height: 100px;
+	}
+
+.navlinks {
+  color: #000;
+	font-weight: bold;
+	margin-right: 2em;
+	letter-spacing: 0.15em;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #444;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.home {
+	background-image: url(images/main.jpg);
+	background-repeat: no-repeat;
+  background-position: fixed;
+	background-size: cover;
+  padding-top: 20em;
+	padding-bottom: 20em;
+	z-index: -100;}
+
+.display-1 {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: left;}
+
+.maintext {
+  display: block;
+  float: right;
+  margin-right: 80px;
+  margin-top: -60px;
+}
+
+.btn {
+	background-color: #444;
+  color: #fff;
+	padding: 5px;
+	width: 25%;
+  font-size: 1em;
+	align: center;
+  border-radius: 20px;
+}
+
+.btn:hover {
+	background-color: #333;
+	color: #fff;
+	width: 25%;
+}
